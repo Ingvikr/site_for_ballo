@@ -1,0 +1,238 @@
+.wrappe {
+    .blo {
+        display: flex;
+        flex-direction: column;
+        .heade {
+            border: 7px solid darkblue;
+            .heade_ro {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                border: 7px solid darkgreen;
+                .heade_ro_desc1 {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: flex-end;
+                    border: 7px solid darkgreen;
+                    .heade_ro_desc1_des1 {
+                        font-style: normal;
+                        font-size: 19px;
+                        color: black;
+                        font-family: "Koulen", sans-serif;
+                        border: 7px solid darkgreen;
+                        margin-right: auto;
+                    }
+
+                    .heade_ro_desc1_des2 {
+                        position: relative;
+                        font-style: normal;
+                        color: black;
+                        font-size: 17px;
+                        cursor: pointer;
+                        opacity: 100%;
+                        font-family: "Source Sans 3", sans-serif;
+                        border: 7px solid darkgreen;
+                        transition: 0.5s;
+                        &::after {
+                            content: " ";
+                            position: absolute;
+                            width: 0px;
+                            height: 5px;
+                            cursor: pointer;
+                            left: 0px;
+                            bottom: 9px;
+                            border-radius: 90px;
+                            background-color: black;
+                            transition: 0.5s;
+                        }
+                        &:hover::after {
+                            cursor: pointer;
+                            width: 59px;
+                        }
+                        
+                        @include medi_scree3 {
+                            opacity: 0%;
+                        }
+                    }
+
+                    .heade_ro_desc1_des3 {
+                        position: relative;
+                        font-style: normal;
+                        color: black;
+                        font-size: 17px;
+                        opacity: 100%;
+                        cursor: pointer;
+                        font-family: "Source Sans 3", sans-serif;
+                        border: 7px solid darkgreen;
+                        &::after {
+                            content: " ";
+                            position: absolute;
+                            width: 0px;
+                            height: 5px;
+                            cursor: pointer;
+                            left: 0px;
+                            bottom: 9px;
+                            border-radius: 90px;
+                            background-color: black;
+                            transition: 0.5s;
+                        }
+                        &:hover::after {
+                            cursor: pointer;
+                            width: 59px;
+                        }
+
+                        @include medi_scree3 {
+                            opacity: 0%;
+                        }
+                    }
+
+                    .heade_ro_desc1_des4 {
+                        position: relative;
+                        font-style: normal;
+                        color: black;
+                        font-size: 17px;
+                        opacity: 100%;
+                        font-family: "Source Sans 3", sans-serif;
+                        border: 7px solid darkgreen;
+                        cursor: pointer;
+                        &::after {
+                            content: " ";
+                            position: absolute;
+                            width: 0px;
+                            height: 5px;
+                            cursor: pointer;
+                            left: 0px;
+                            bottom: 9px;
+                            border-radius: 90px;
+                            background-color: black;
+                            transition: 0.5s;
+                        }
+                        &:hover::after {
+                            cursor: pointer;
+                            width: 39px;
+                        }
+
+                        @include medi_scree3 {
+                            opacity: 0%;
+                        }
+                    }
+
+                    .heade_ro_desc1_des5 {
+                        position: relative;
+                        font-style: normal;
+                        color: black;
+                        opacity: 100%;
+                        font-size: 17px;
+                        cursor: pointer;
+                        font-family: "Source Sans 3", sans-serif;
+                        border: 7px solid darkgreen;
+                        &::after {
+                            content: " ";
+                            position: absolute;
+                            width: 0px;
+                            height: 5px;
+                            cursor: pointer;
+                            left: 0px;
+                            bottom: 9px;
+                            border-radius: 90px;
+                            background-color: black;
+                            transition: 0.5s;
+                        }
+                        &:hover::after {
+                            cursor: pointer;
+                            width: 39px;
+                        }
+
+                        @include medi_scree3 {
+                            opacity: 0%;
+                        }
+                    }
+
+                    .heade_ro_desc1_des6 {
+                         position: relative;
+                         transition: 0.5s;
+                         opacity: 0%;
+                         left: -35px;
+                         top: -17px;
+                         cursor: pointer;
+                         @include medi_scree1 {
+                             opacity: 0%;
+                         }
+
+                         @include medi_scree2 {
+                            opacity: 0%;
+                        }
+
+                        @include medi_scree3 {
+                            left: -35px;
+                            top: -17px;
+                            opacity: 100%;
+                        }
+                         &:hover .heade_ro_desc1_des6_burg1_men1::after {
+                            left: 0px;
+                            bottom: 13px;
+                            transform-origin: right;
+                            border-radius: 90px;
+                            cursor: pointer;
+                            background-color: black;
+                            transform: rotate(-45deg);
+                        }
+
+                        &:hover .heade_ro_desc1_des6_burg1_men2::after {
+                            left: 0px;
+                            transform-origin: right;
+                            border-radius: 90px;
+                            background-color: black;
+                            bottom: -7px;
+                            cursor: pointer;
+                            transform: rotate(45deg);
+                        }
+                        .heade_ro_desc1_des6_burg1_men1 {
+                            cursor: pointer;
+                            &::after {
+                                content: " ";
+                                position: absolute;
+                                width: 30px;
+                                cursor: pointer;
+                                height: 5px;
+                                left: 0px;
+                                bottom: 13px;
+                                transform-origin: right;
+                                border-radius: 90px;
+                                background-color: black;
+                                transition: 0.5s;
+                            }
+                        }
+                        .heade_ro_desc1_des6_burg1_men2 {
+                            cursor: pointer;
+                            &::after {
+                                content: " ";
+                                position: absolute;
+                                width: 30px;
+                                height: 5px;
+                                left: 0px;
+                                bottom: -3px;
+                                transform-origin: right;
+                                border-radius: 90px;
+                                background-color: black;
+                                transition: 0.5s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .mai {
+            flex-wrap: wrap;
+            flex-grow: 1;
+            flex-basis: 2700px;
+            border: 7px solid darkblue;
+        }
+
+        .foote {
+            border: 7px solid darkblue;
+        }
+    }
+}
