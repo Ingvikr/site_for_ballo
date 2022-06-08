@@ -1,0 +1,218 @@
+.foote {
+    .foote_ro {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border: 7px solid darkgreen;
+        .foote_ro_tx1 {
+            align-self: flex-start;
+            font-style: normal;
+            font-size: 17px;
+            font-family: "Koulen", sans-serif;
+            color: black;
+            border: 7px solid darkblue;
+        }
+        .foote_ro_tx2 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            column-gap: 93px;
+            border: 7px solid darkgreen;
+            @include poin_scre2 {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: flex-start;
+                column-gap: 93px;
+                border: 7px solid darkgreen;
+            }
+
+            @include poin_scre3 {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: flex-start;
+                column-gap: 93px;
+                border: 7px solid darkgreen;
+            }
+
+            @include poin_scre4 {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                justify-content: flex-start;
+                column-gap: 93px;
+                border: 7px solid darkgreen;
+            }
+            .foote_ro_tx2_ln1 {
+                position: relative;
+                font-style: normal;
+                font-family: "Source Sans 3", sans-serif;
+                font-size: 15px;
+                color: #262626;
+                cursor: pointer;
+                border: 7px solid darkblue;
+                transition: 0.5s;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    width: 0px;
+                    left: 0px;
+                    cursor: pointer;
+                    bottom: -7px;
+                    height: 5px;
+                    border-radius: 79px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    content: " ";
+                    position: absolute;
+                    width: 90px;
+                    left: 0px;
+                    bottom: -7px;
+                    height: 5px;
+                    cursor: pointer;
+                    border-radius: 79px;
+                    background-color: black;
+                }
+            }
+
+            .foote_ro_tx2_ln2 {
+                position: relative;
+                font-style: normal;
+                font-family: "Source Sans 3", sans-serif;
+                font-size: 15px;
+                color: #262626;
+                cursor: pointer;
+                border: 7px solid darkblue;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    width: 0px;
+                    left: 0px;
+                    cursor: pointer;
+                    bottom: -7px;
+                    height: 5px;
+                    border-radius: 79px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    content: " ";
+                    position: absolute;
+                    width: 90px;
+                    left: 0px;
+                    bottom: -7px;
+                    height: 5px;
+                    cursor: pointer;
+                    border-radius: 79px;
+                    background-color: black;
+                }
+            }
+
+            .foote_ro_tx2_ln3 {
+                position: relative;
+                font-style: normal;
+                cursor: pointer;
+                font-family: "Source Sans 3", sans-serif;
+                font-size: 15px;
+                color: #262626;
+                border: 7px solid darkblue;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    width: 0px;
+                    left: 0px;
+                    cursor: pointer;
+                    bottom: -7px;
+                    height: 5px;
+                    border-radius: 79px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    content: " ";
+                    position: absolute;
+                    width: 90px;
+                    left: 0px;
+                    bottom: -7px;
+                    height: 5px;
+                    cursor: pointer;
+                    border-radius: 79px;
+                    background-color: black;
+                }
+            }
+
+            .foote_ro_tx2_ln4 {
+                position: relative;
+                font-style: normal;
+                font-family: "Source Sans 3", sans-serif;
+                font-size: 15px;
+                cursor: pointer;
+                color: #262626;
+                border: 7px solid darkblue;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    width: 0px;
+                    left: 0px;
+                    cursor: pointer;
+                    bottom: -7px;
+                    height: 5px;
+                    border-radius: 79px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    content: " ";
+                    position: absolute;
+                    width: 90px;
+                    left: 0px;
+                    bottom: -7px;
+                    height: 5px;
+                    cursor: pointer;
+                    border-radius: 79px;
+                    background-color: black;
+                }
+            }
+
+            .foote_ro_tx2_ln5 {
+                position: relative;
+                font-style: normal;
+                font-family: "Source Sans 3", sans-serif;
+                cursor: pointer;
+                font-size: 15px;
+                color: #262626;
+                border: 7px solid darkblue;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    width: 0px;
+                    left: 0px;
+                    cursor: pointer;
+                    bottom: -7px;
+                    height: 5px;
+                    border-radius: 79px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    content: " ";
+                    position: absolute;
+                    width: 90px;
+                    left: 0px;
+                    bottom: -7px;
+                    height: 5px;
+                    cursor: pointer;
+                    border-radius: 79px;
+                    background-color: black;
+                }
+            }
+        }
+    }
+}

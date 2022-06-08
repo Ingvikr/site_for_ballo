@@ -1,0 +1,950 @@
+.mai {
+    .mai_ro {
+        display: flex;
+        flex-direction: column;
+        row-gap: 37px;
+        border: 7px solid darkblue;
+        @include poin_scre3 {
+            display: flex;
+            flex-direction: column;
+            row-gap: 51px;
+            border: 7px solid darkblue;
+        }
+
+        @include poin_scre4 {
+            display: flex;
+            flex-direction: column;
+            row-gap: 59px;
+            border: 7px solid darkblue;
+        }
+        .mai_ro_sal1 {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            border: 7px solid darkgreen;
+            @include poin_scre3 {
+                display: flex;
+                flex-direction: column; 
+                row-gap: 7px;
+                flex-wrap: wrap;
+                border: 7px solid darkgreen;
+            }
+
+            @include poin_scre4 {
+                display: flex;
+                flex-direction: column;
+                row-gap: 7px;
+                flex-wrap: wrap;
+                border: 7px solid darkgreen;
+            }
+            .mai_ro_sal1_nm1 {
+                align-self: center;
+                font-style: normal;
+                color: black;
+                font-size: 17px;
+                font-family: "Source Serif 4", sans-serif;
+                border: 7px solid darkgreen;
+                @include poin_scre3 {
+                    align-self: center;
+                    font-style: normal;
+                    color: black;
+                    font-size: 17px;
+                    font-family: "Source Serif 4", sans-serif;
+                    border: 7px solid darkgreen;
+                }
+
+                @include poin_scre4 {
+                    align-self: flex-start;
+                    font-style: normal;
+                    color: black;
+                    font-size: 17px;
+                    font-family: "Source Serif 4", sans-serif;
+                    border: 7px solid darkgreen;
+                }
+            }
+
+            .mai_ro_sal1_desc1 {
+                align-self: flex-start;
+                font-style: normal;
+                font-size: 15px;
+                font-family: "Source Sans 3", sans-serif;
+                color: #2D2D2D;
+                border: 7px solid darkgreen;
+            }
+
+            .mai_ro_sal1_nm2 {
+                align-self: flex-start;
+                font-style: normal;
+                color: #242424;
+                font-size: 15px;
+                font-family: "Source Serif Pro", sans-serif;
+                border: 7px solid darkgreen;
+                @include poin_scre3 {
+                    align-self: center;
+                    font-style: normal;
+                    color: #242424;
+                    font-size: 15px;
+                    font-family: "Source Serif Pro", sans-serif;
+                    border: 7px solid darkgreen;
+                }
+
+                @include poin_scre4 {
+                    align-self: flex-start;
+                    font-style: normal;
+                    color: #242424;
+                    font-size: 15px;
+                    font-family: "Source Serif Pro", sans-serif;
+                    border: 7px solid darkgreen;
+                }
+            }
+
+            .mai_ro_sal1_desc2 {
+                align-self: flex-start;
+                font-style: normal;
+                font-size: 15px;
+                font-family: "Source Sans 3", sans-serif;
+                color: #313131;
+                border: 7px solid darkgreen;
+            }
+
+            .mai_ro_sal1_but1 {
+                align-self: flex-end;
+                width: 175px;
+                height: 37px;
+                background-color: transparent;
+                border: 1px solid #67AF1E;
+                font-style: normal;
+                cursor: pointer;
+                font-size: 15px;
+                color: black;
+                font-family: "Vollkorn", sans-serif;
+                border: 7px solid darkgreen;
+                transition: 0.5s;
+                &:hover {
+                    width: 175px;
+                    height: 37px;
+                    background-color: #67AF1E;
+                    border: 1px solid #67AF1E;
+                    font-style: normal;
+                    cursor: pointer;
+                    font-size: 15px;
+                    color: white;
+                    font-family: "Vollkorn", sans-serif;
+                    border: 7px solid darkgreen;
+                }
+                @include poin_scre3 {
+                    align-self: center;
+                    width: 175px;
+                    height: 37px;
+                    background-color: transparent;
+                    border: 1px solid #67AF1E;
+                    font-style: normal;
+                    cursor: pointer;
+                    font-size: 15px;
+                    color: black;
+                    font-family: "Vollkorn", sans-serif;
+                    border: 7px solid darkgreen;
+                    transition: 0.5s;
+                    &:hover {
+                        width: 175px;
+                        height: 37px;
+                        background-color: #67AF1E;
+                        border: 1px solid #67AF1E;
+                        font-style: normal;
+                        cursor: pointer;
+                        font-size: 15px;
+                        color: white;
+                        font-family: "Vollkorn", sans-serif;
+                        border: 7px solid darkgreen;
+                    }  
+                }
+
+                @include poin_scre4 {
+                    align-self: flex-start;
+                    width: 175px;
+                    height: 37px;
+                    background-color: transparent;
+                    border: 1px solid #67AF1E;
+                    font-style: normal;
+                    cursor: pointer;
+                    font-size: 15px;
+                    color: black;
+                    font-family: "Vollkorn", sans-serif;
+                    border: 7px solid darkgreen;
+                    transition: 0.5s;
+                    &:hover {
+                        width: 175px;
+                        height: 37px;
+                        background-color: #67AF1E;
+                        border: 1px solid #67AF1E;
+                        font-style: normal;
+                        cursor: pointer;
+                        font-size: 15px;
+                        color: white;
+                        font-family: "Vollkorn", sans-serif;
+                        border: 7px solid darkgreen;
+                    }
+                }
+            }
+
+            .mai_ro_sal1_imro1 {
+                display: flex;
+                flex-direction: column;
+                max-width: 350px;
+                border: 7px solid darkgreen;
+                @include poin_scre3 {
+                    display: flex;
+                    flex-direction: column;
+                    border: 7px solid darkgreen;
+                    max-width: 150px;
+                }
+                .mai_ro_sal1_imro1_pho1 {
+                    justify-self: flex-start;
+                    width: 53px;
+                    height: 53px;
+                    margin-top: -150px;
+                    border: 7px solid darkgreen;
+                }
+
+                .mai_ro_sal1_imro1_nm1 {
+                    max-width: 190px;
+                    font-style: normal;
+                    font-size: 15px;
+                    color: black;
+                    font-family: "Ruda", sans-serif;
+                    border: 7px solid darkgreen;
+                }
+
+                .mai_ro_sal1_imro1_desc1 {
+                    max-width: 190px;
+                    font-style: normal;
+                    font-size: 15px;
+                    color: black;
+                    font-family: "Ruda", sans-serif;
+                    border: 7px solid darkgreen;  
+                }
+
+                .mai_ro_sal1_imro1_desc2 {
+                    font-style: normal;
+                    font-size: 15px;
+                    color: black;
+                    font-family: "Ruda", sans-serif;
+                }
+
+                .mai_ro_sal1_imro1_ico1 { 
+                    width: 190px;
+                    height: 190px;
+                    border: 7px solid darkgreen; 
+                    @include poin_scre3 {
+                        width: 133px;
+                        height: 133px;
+                        border: 7px solid darkgreen; 
+                    } 
+                }
+            }
+        }
+
+        .mai_ro_blo1 {
+            display: flex;
+            flex-direction: column;
+            border: 7px solid darkgreen;
+            .mai_ro_blo1_nm1 {
+                align-self: center;
+                font-style: normal;
+                font-size: 17px;
+                color: black;
+                font-family: "Source Serif 4", sans-serif;
+                border: 7px solid darkgreen;
+            }
+        }
+
+        .mai_ro_blo1_produ1 { 
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            max-width: 1910px;
+            flex-wrap: wrap;
+            border: 7px solid darkgreen;
+            @include poin_scre3 {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                max-width: 1910px;
+                flex-wrap: wrap;
+                row-gap: 27px;
+                border: 7px solid darkgreen;
+            }
+            @include poin_scre4 {
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: row;
+                max-width: 1910px;
+                row-gap: 33px;
+                flex-wrap: wrap;
+                border: 7px solid darkgreen;
+            }
+            .mai_ro_blo1_produ1_ro {
+                display: flex;
+                flex-direction: column;
+                width: 337px;
+                cursor: pointer;
+                row-gap: 11px;
+                border: 7px solid darkgreen;
+                transition: 0.5s;
+                &:hover {
+                    cursor: pointer;
+                    box-shadow: 1px 0px 4px 4px;
+                }
+                .mai_ro_blo1_produ1_ro_im1 {
+                    align-self: center;
+                    max-width: 203px;
+                }
+
+                .mai_ro_blo1_produ1_ro_nm1 {
+                    font-style: normal;
+                    color: black;
+                    font-size: 17px;
+                    font-family: "Vollkorn", sans-serif;
+                }
+
+                .mai_ro_blo1_produ1_ro_desc1 {
+                    font-style: normal;
+                    font-size: 15px;
+                    color: #474747;
+                    font-family: "Source Sans 3", sans-serif;
+                }
+
+                .mai_ro_blo1_produ1_ro_desc2 {
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 7px;
+                    font-style: normal;
+                    font-size: 15px;
+                    color: black;
+                    font-family: "Source Serif Pro", sans-serif;
+                }
+
+                .mai_ro_blo1_produ1_ro_desc2_descr1 {
+                    font-style: normal;
+                    font-size: 15px;
+                    color: #494949;
+                    font-family: "Source Sans 3", sans-serif;
+                }
+
+                .mai_ro_blo1_produ1_ro_desc3 { 
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 7px;
+                    font-style: normal;
+                    font-size: 15px;
+                    color: black;
+                    font-family: "Source Serif Pro", sans-serif;
+                }
+
+                .mai_ro_blo1_produ1_ro_desc2_descr2 {
+                    font-style: normal;
+                    font-size: 15px;
+                    color: #494949;
+                    font-family: "Source Sans 3", sans-serif;
+                }
+
+                .mai_ro_blo1_produ1_ro_desc4 {
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 7px;
+                    font-style: normal;
+                    font-size: 15px;
+                    color: black;
+                    font-family: "Source Serif Pro", sans-serif;
+                }
+
+                .mai_ro_blo1_produ1_ro_desc2_descr3 {
+                    font-style: normal;
+                    font-size: 15px;
+                    color: #494949;
+                    font-family: "Source Sans 3", sans-serif;
+                }
+
+                .mai_ro_blo1_produ1_ro_but1 {
+                    align-self: flex-end;
+                    width: 131px;
+                    height: 31px;
+                    background-color: transparent;
+                    cursor: pointer;
+                    border: 1px solid #FF8000;
+                    font-style: normal;
+                    font-size: 15px;
+                    font-family: "Source Sans 3", sans-serif;
+                    color: black;
+                    transition: 0.5s;
+                    &:hover {
+                        align-self: flex-end;
+                        width: 131px;
+                        height: 31px;
+                        background-color: #FF8000;
+                        cursor: pointer;
+                        border: 1px solid #FF8000;
+                        font-style: normal;
+                        font-size: 15px;
+                        font-family: "Source Sans 3", sans-serif;
+                        color: white;
+                    }
+
+                    @include poin_scre3 {
+                        align-self: center;
+                        width: 131px;
+                        height: 31px;
+                        background-color: transparent;
+                        cursor: pointer;
+                        border: 1px solid #FF8000;
+                        font-style: normal;
+                        font-size: 15px;
+                        font-family: "Source Sans 3", sans-serif;
+                        color: black;
+                        transition: 0.5s;
+                        &:hover {
+                            align-self: center;
+                            width: 131px;
+                            height: 31px;
+                            background-color: #FF8000;
+                            cursor: pointer;
+                            border: 1px solid #FF8000;
+                            font-style: normal;
+                            font-size: 15px;
+                            font-family: "Source Sans 3", sans-serif;
+                            color: white;
+                        }
+                    }
+                    @include poin_scre4 {
+                        align-self: flex-start;
+                        width: 131px;
+                        height: 31px;
+                        background-color: transparent;
+                        cursor: pointer;
+                        border: 1px solid #FF8000;
+                        font-style: normal;
+                        font-size: 15px;
+                        font-family: "Source Sans 3", sans-serif;
+                        color: black;
+                        transition: 0.5s;
+                        &:hover {
+                            align-self: flex-start;
+                            width: 131px;
+                            height: 31px;
+                            background-color: #FF8000;
+                            cursor: pointer;
+                            border: 1px solid #FF8000;
+                            font-style: normal;
+                            font-size: 15px;
+                            font-family: "Source Sans 3", sans-serif;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+
+        .mai_ro_blo1_produ2 { 
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            max-width: 1910px;
+            flex-wrap: wrap;
+            border: 7px solid darkgreen;
+            @include poin_scre3 {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                max-width: 1910px;
+                flex-wrap: wrap;
+                border: 7px solid darkgreen;
+            }
+            @include poin_scre4 {
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: row;
+                max-width: 1910px;
+                flex-wrap: wrap;
+                border: 7px solid darkgreen;
+            }
+            .mai_ro_blo1_produ2_ro {
+                display: flex;
+                flex-direction: column;
+                width: 337px;
+                row-gap: 11px;
+                cursor: pointer;
+                border: 7px solid darkgreen;
+                transition: 0.5s;
+                &:hover {
+                    cursor: pointer;
+                    box-shadow: 1px 0px 4px 4px;
+                }
+                .mai_ro_blo1_produ2_ro_im1 {
+                    align-self: center;
+                    max-width: 203px;
+                }
+
+                .mai_ro_blo1_produ2_ro_nm1 {
+                    font-style: normal;
+                    color: black;
+                    font-size: 17px;
+                    font-family: "Vollkorn", sans-serif;
+                }
+
+                .mai_ro_blo1_produ2_ro_desc1 {
+                    font-style: normal;
+                    font-size: 15px;
+                    color: #474747;
+                    font-family: "Source Sans 3", sans-serif;
+                }
+
+                .mai_ro_blo1_produ2_ro_desc2 {
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 7px;
+                    font-style: normal;
+                    font-size: 15px;
+                    color: black;
+                    font-family: "Source Serif Pro", sans-serif;
+                }
+
+                .mai_ro_blo1_produ2_ro_desc2_descr1 {
+                    font-style: normal;
+                    font-size: 15px;
+                    color: #494949;
+                    font-family: "Source Sans 3", sans-serif;
+                }
+
+                .mai_ro_blo1_produ2_ro_desc3 { 
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 7px;
+                    font-style: normal;
+                    font-size: 15px;
+                    color: black;
+                    font-family: "Source Serif Pro", sans-serif;
+                }
+
+                .mai_ro_blo1_produ2_ro_desc2_descr2 {
+                    font-style: normal;
+                    font-size: 15px;
+                    color: #494949;
+                    font-family: "Source Sans 3", sans-serif;
+                }
+
+                .mai_ro_blo1_produ2_ro_desc4 {
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 7px;
+                    font-style: normal;
+                    font-size: 15px;
+                    color: black;
+                    font-family: "Source Serif Pro", sans-serif;
+                }
+
+                .mai_ro_blo1_produ2_ro_desc2_descr3 {
+                    font-style: normal;
+                    font-size: 15px;
+                    color: #494949;
+                    font-family: "Source Sans 3", sans-serif;
+                }
+
+                .mai_ro_blo1_produ2_ro_but1 {
+                    align-self: flex-end;
+                    width: 131px;
+                    height: 31px;
+                    background-color: transparent;
+                    cursor: pointer;
+                    border: 1px solid #FF8000;
+                    font-style: normal;
+                    font-size: 15px;
+                    font-family: "Source Sans 3", sans-serif;
+                    color: black;
+                    transition: 0.5s;
+                    &:hover {
+                        align-self: flex-end;
+                        width: 131px;
+                        height: 31px;
+                        background-color: #FF8000;
+                        cursor: pointer;
+                        border: 1px solid #FF8000;
+                        font-style: normal;
+                        font-size: 15px;
+                        font-family: "Source Sans 3", sans-serif;
+                        color: white;
+                    }
+
+                    @include poin_scre3 {
+                        align-self: center;
+                        width: 131px;
+                        height: 31px;
+                        background-color: transparent;
+                        cursor: pointer;
+                        border: 1px solid #FF8000;
+                        font-style: normal;
+                        font-size: 15px;
+                        font-family: "Source Sans 3", sans-serif;
+                        color: black;
+                        transition: 0.5s;
+                        &:hover {
+                            align-self: center;
+                            width: 131px;
+                            height: 31px;
+                            background-color: #FF8000;
+                            cursor: pointer;
+                            border: 1px solid #FF8000;
+                            font-style: normal;
+                            font-size: 15px;
+                            font-family: "Source Sans 3", sans-serif;
+                            color: white;
+                        }
+                    }
+                    @include poin_scre4 {
+                        align-self: flex-start;
+                        width: 131px;
+                        height: 31px;
+                        background-color: transparent;
+                        cursor: pointer;
+                        border: 1px solid #FF8000;
+                        font-style: normal;
+                        font-size: 15px;
+                        font-family: "Source Sans 3", sans-serif;
+                        color: black;
+                        transition: 0.5s;
+                        &:hover {
+                            align-self: flex-start;
+                            width: 131px;
+                            height: 31px;
+                            background-color: #FF8000;
+                            cursor: pointer;
+                            border: 1px solid #FF8000;
+                            font-style: normal;
+                            font-size: 15px;
+                            font-family: "Source Sans 3", sans-serif;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+
+        .mai_ro_blo1_produ3 { 
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            max-width: 1910px;
+            flex-wrap: wrap;
+            border: 7px solid darkgreen;
+            @include poin_scre3 {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                max-width: 1910px;
+                flex-wrap: wrap;
+                border: 7px solid darkgreen;
+            }
+            @include poin_scre4 {
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: row;
+                max-width: 1910px;
+                flex-wrap: wrap;
+                border: 7px solid darkgreen;
+            }
+            .mai_ro_blo1_produ3_ro {
+                display: flex;
+                flex-direction: column;
+                cursor: pointer;
+                width: 337px;
+                row-gap: 11px;
+                border: 7px solid darkgreen;
+                transition: 0.5s;
+                &:hover {
+                    cursor: pointer;
+                    box-shadow: 1px 0px 4px 4px;
+                }
+                .mai_ro_blo1_produ3_ro_im1 {
+                    align-self: center;
+                    max-width: 203px;
+                }
+
+                .mai_ro_blo1_produ3_ro_nm1 {
+                    font-style: normal;
+                    color: black;
+                    font-size: 17px;
+                    font-family: "Vollkorn", sans-serif;
+                }
+
+                .mai_ro_blo1_produ3_ro_desc1 {
+                    font-style: normal;
+                    font-size: 15px;
+                    color: #474747;
+                    font-family: "Source Sans 3", sans-serif;
+                }
+
+                .mai_ro_blo1_produ3_ro_desc2 {
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 7px;
+                    font-style: normal;
+                    font-size: 15px;
+                    color: black;
+                    font-family: "Source Serif Pro", sans-serif;
+                }
+
+                .mai_ro_blo1_produ3_ro_desc2_descr1 {
+                    font-style: normal;
+                    font-size: 15px;
+                    color: #494949;
+                    font-family: "Source Sans 3", sans-serif;
+                }
+
+                .mai_ro_blo1_produ3_ro_desc3 { 
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 7px;
+                    font-style: normal;
+                    font-size: 15px;
+                    color: black;
+                    font-family: "Source Serif Pro", sans-serif;
+                }
+
+                .mai_ro_blo1_produ3_ro_desc2_descr2 {
+                    font-style: normal;
+                    font-size: 15px;
+                    color: #494949;
+                    font-family: "Source Sans 3", sans-serif;
+                }
+
+                .mai_ro_blo1_produ3_ro_desc4 {
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 7px;
+                    font-style: normal;
+                    font-size: 15px;
+                    color: black;
+                    font-family: "Source Serif Pro", sans-serif;
+                }
+
+                .mai_ro_blo1_produ3_ro_desc2_descr3 {
+                    font-style: normal;
+                    font-size: 15px;
+                    color: #494949;
+                    font-family: "Source Sans 3", sans-serif;
+                }
+
+                .mai_ro_blo1_produ3_ro_but1 {
+                    align-self: flex-end;
+                    width: 131px;
+                    height: 31px;
+                    background-color: transparent;
+                    cursor: pointer;
+                    border: 1px solid #FF8000;
+                    font-style: normal;
+                    font-size: 15px;
+                    font-family: "Source Sans 3", sans-serif;
+                    color: black;
+                    transition: 0.5s;
+                    &:hover {
+                        align-self: flex-end;
+                        width: 131px;
+                        height: 31px;
+                        background-color: #FF8000;
+                        cursor: pointer;
+                        border: 1px solid #FF8000;
+                        font-style: normal;
+                        font-size: 15px;
+                        font-family: "Source Sans 3", sans-serif;
+                        color: white;
+                    }
+
+                    @include poin_scre3 {
+                        align-self: center;
+                        width: 131px;
+                        height: 31px;
+                        background-color: transparent;
+                        cursor: pointer;
+                        border: 1px solid #FF8000;
+                        font-style: normal;
+                        font-size: 15px;
+                        font-family: "Source Sans 3", sans-serif;
+                        color: black;
+                        transition: 0.5s;
+                        &:hover {
+                            align-self: center;
+                            width: 131px;
+                            height: 31px;
+                            background-color: #FF8000;
+                            cursor: pointer;
+                            border: 1px solid #FF8000;
+                            font-style: normal;
+                            font-size: 15px;
+                            font-family: "Source Sans 3", sans-serif;
+                            color: white;
+                        }
+                    }
+                    @include poin_scre4 {
+                        align-self: flex-start;
+                        width: 131px;
+                        height: 31px;
+                        background-color: transparent;
+                        cursor: pointer;
+                        border: 1px solid #FF8000;
+                        font-style: normal;
+                        font-size: 15px;
+                        font-family: "Source Sans 3", sans-serif;
+                        color: black;
+                        transition: 0.5s;
+                        &:hover {
+                            align-self: flex-start;
+                            width: 131px;
+                            height: 31px;
+                            background-color: #FF8000;
+                            cursor: pointer;
+                            border: 1px solid #FF8000;
+                            font-style: normal;
+                            font-size: 15px;
+                            font-family: "Source Sans 3", sans-serif;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+
+        .mai_ro_blo1_produ4 {
+            border: 7px solid darkgreen;
+            .mai_ro_blo1_produ4_ro {
+                display: flex;
+                flex-direction: column;
+                margin-top: 13px;
+                border: 7px solid darkgreen;
+                .mai_ro_blo1_produ4_ro_tx1 {
+                    align-self: flex-start;
+                    font-style: normal;
+                    color: black;
+                    font-size: 17px;
+                    font-family: "Source Serif Pro", sans-serif;
+                    border: 7px solid darkblue;
+                    @include poin_scre3 {
+                        align-self: center;
+                        font-style: normal;
+                        color: black;
+                        font-size: 17px;
+                        font-family: "Source Serif 4", sans-serif;
+                        border: 7px solid darkblue;
+                    }
+
+                    @include poin_scre4 {
+                        align-self: flex-start;
+                        font-style: normal;
+                        color: black;
+                        font-size: 17px;
+                        font-family: "Source Serif 4", sans-serif;
+                        border: 7px solid darkblue;
+                    }
+                }
+
+                .mai_ro_blo1_produ4_ro_tx2 {
+                    align-self: flex-start;
+                    font-style: normal;
+                    color: #474747;
+                    font-family: "Source Sans 3", sans-serif;
+                    font-size: 15px;
+                    border: 7px solid darkblue;
+                    @include poin_scre3 {
+                        align-self: center;
+                        font-style: normal;
+                        color: #474747;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 15px;
+                        border: 7px solid darkblue;
+                    }
+
+                    @include poin_scre4 {
+                        align-self: flex-start;
+                        font-style: normal;
+                        color: #474747;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 15px;
+                        border: 7px solid darkblue;
+                    }
+                }
+
+                .mai_ro_blo1_produ4_ro_but1 {
+                    align-self: flex-end;
+                    width: 141px;
+                    height: 31px;
+                    border: 1px solid #8000FF;
+                    font-style: normal;
+                    color: black;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: transparent;
+                    font-family: "Source Sans 3", sans-serif;
+                    transition: 0.5s;
+                    &:hover {
+                        width: 141px;
+                        height: 31px;
+                        border: 1px solid #8000FF;
+                        font-style: normal;
+                        cursor: pointer;
+                        color: white;
+                        font-size: 15px;
+                        background-color: #8000FF;
+                        font-family: "Source Sans 3", sans-serif;
+                    }
+                    @include poin_scre3 {
+                        align-self: center;
+                        width: 141px;
+                        height: 31px;
+                        border: 1px solid #8000FF;
+                        font-style: normal;
+                        color: black;
+                        cursor: pointer;
+                        font-size: 15px;
+                        background-color: transparent;
+                        font-family: "Source Sans 3", sans-serif;
+                        transition: 0.5s;
+                        &:hover {
+                            width: 141px;
+                            height: 31px;
+                            border: 1px solid #8000FF;
+                            font-style: normal;
+                            cursor: pointer;
+                            color: white;
+                            font-size: 15px;
+                            background-color: #8000FF;
+                            font-family: "Source Sans 3", sans-serif;
+                        }
+                    }
+
+                    @include poin_scre4 {
+                        align-self: flex-start;
+                        width: 141px;
+                        height: 31px;
+                        border: 1px solid #8000FF;
+                        font-style: normal;
+                        color: black;
+                        cursor: pointer;
+                        font-size: 15px;
+                        background-color: transparent;
+                        font-family: "Source Sans 3", sans-serif;
+                        transition: 0.5s;
+                        &:hover {
+                            width: 141px;
+                            height: 31px;
+                            border: 1px solid #8000FF;
+                            font-style: normal;
+                            cursor: pointer;
+                            color: white;
+                            font-size: 15px;
+                            background-color: #8000FF;
+                            font-family: "Source Sans 3", sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
