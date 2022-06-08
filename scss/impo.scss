@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap");
 @import "med_scss/med.scss";
+@import "scrol.scss";
 @import "mai.scss";
 @import "heade.scss";
 @import "foote.scss";
@@ -14,20 +15,16 @@
         .blo_ro {
             display: flex;
             flex-direction: column;
-            border: 7px solid darkblue;
             .heade {
-                border: 7px solid darkgreen;
             }
 
             .mai {
                 flex-grow: 1;
                 flex-wrap: wrap;
                 flex-basis: 3130px;
-                border: 7px solid darkgreen;  
             }
 
             .foote {
-                border: 7px solid darkgreen;  
             }
         }
     }
