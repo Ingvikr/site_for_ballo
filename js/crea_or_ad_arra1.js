@@ -79,6 +79,9 @@ function creat_or_sol () {
                                                                             if(desc_sal1.hasOwnProperty("desc_sol1_sal1") == true && desc_sal1.hasOwnProperty("desc_sol1_sal3") == true) {
                                                                                 if(confirm("Можете посмотреть акци")) {
                                                                                     if(confirm("Это всё тоже плат")) {
+                                                                                        if(confirm("Посмотреть дол")) {
+                                                                                            
+                                                                                        }
                                                                                 }
                                                                             }
                                                                         }
