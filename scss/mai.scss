@@ -3,31 +3,27 @@
         display: flex;
         flex-direction: column;
         row-gap: 37px;
-        border: 7px solid darkblue;
         @include poin_scre3 {
             display: flex;
             flex-direction: column;
             row-gap: 51px;
-            border: 7px solid darkblue;
         }
 
         @include poin_scre4 {
             display: flex;
             flex-direction: column;
             row-gap: 59px;
-            border: 7px solid darkblue;
         }
         .mai_ro_sal1 {
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
-            border: 7px solid darkgreen;
+            border: 1px solid black;
             @include poin_scre3 {
                 display: flex;
                 flex-direction: column; 
                 row-gap: 7px;
                 flex-wrap: wrap;
-                border: 7px solid darkgreen;
             }
 
             @include poin_scre4 {
@@ -35,7 +31,6 @@
                 flex-direction: column;
                 row-gap: 7px;
                 flex-wrap: wrap;
-                border: 7px solid darkgreen;
             }
             .mai_ro_sal1_nm1 {
                 align-self: center;
@@ -43,14 +38,12 @@
                 color: black;
                 font-size: 17px;
                 font-family: "Source Serif 4", sans-serif;
-                border: 7px solid darkgreen;
                 @include poin_scre3 {
                     align-self: center;
                     font-style: normal;
                     color: black;
                     font-size: 17px;
                     font-family: "Source Serif 4", sans-serif;
-                    border: 7px solid darkgreen;
                 }
 
                 @include poin_scre4 {
@@ -59,7 +52,6 @@
                     color: black;
                     font-size: 17px;
                     font-family: "Source Serif 4", sans-serif;
-                    border: 7px solid darkgreen;
                 }
             }
 
@@ -69,7 +61,6 @@
                 font-size: 15px;
                 font-family: "Source Sans 3", sans-serif;
                 color: #2D2D2D;
-                border: 7px solid darkgreen;
             }
 
             .mai_ro_sal1_nm2 {
@@ -78,14 +69,12 @@
                 color: #242424;
                 font-size: 15px;
                 font-family: "Source Serif Pro", sans-serif;
-                border: 7px solid darkgreen;
                 @include poin_scre3 {
                     align-self: center;
                     font-style: normal;
                     color: #242424;
                     font-size: 15px;
                     font-family: "Source Serif Pro", sans-serif;
-                    border: 7px solid darkgreen;
                 }
 
                 @include poin_scre4 {
@@ -94,7 +83,6 @@
                     color: #242424;
                     font-size: 15px;
                     font-family: "Source Serif Pro", sans-serif;
-                    border: 7px solid darkgreen;
                 }
             }
 
@@ -104,7 +92,6 @@
                 font-size: 15px;
                 font-family: "Source Sans 3", sans-serif;
                 color: #313131;
-                border: 7px solid darkgreen;
             }
 
             .mai_ro_sal1_but1 {
@@ -118,7 +105,6 @@
                 font-size: 15px;
                 color: black;
                 font-family: "Vollkorn", sans-serif;
-                border: 7px solid darkgreen;
                 transition: 0.5s;
                 &:hover {
                     width: 175px;
@@ -130,7 +116,6 @@
                     font-size: 15px;
                     color: white;
                     font-family: "Vollkorn", sans-serif;
-                    border: 7px solid darkgreen;
                 }
                 @include poin_scre3 {
                     align-self: center;
@@ -143,7 +128,6 @@
                     font-size: 15px;
                     color: black;
                     font-family: "Vollkorn", sans-serif;
-                    border: 7px solid darkgreen;
                     transition: 0.5s;
                     &:hover {
                         width: 175px;
@@ -155,7 +139,6 @@
                         font-size: 15px;
                         color: white;
                         font-family: "Vollkorn", sans-serif;
-                        border: 7px solid darkgreen;
                     }  
                 }
 
@@ -170,7 +153,6 @@
                     font-size: 15px;
                     color: black;
                     font-family: "Vollkorn", sans-serif;
-                    border: 7px solid darkgreen;
                     transition: 0.5s;
                     &:hover {
                         width: 175px;
@@ -182,7 +164,6 @@
                         font-size: 15px;
                         color: white;
                         font-family: "Vollkorn", sans-serif;
-                        border: 7px solid darkgreen;
                     }
                 }
             }
@@ -191,11 +172,9 @@
                 display: flex;
                 flex-direction: column;
                 max-width: 350px;
-                border: 7px solid darkgreen;
                 @include poin_scre3 {
                     display: flex;
                     flex-direction: column;
-                    border: 7px solid darkgreen;
                     max-width: 150px;
                 }
                 .mai_ro_sal1_imro1_pho1 {
@@ -203,7 +182,6 @@
                     width: 53px;
                     height: 53px;
                     margin-top: -150px;
-                    border: 7px solid darkgreen;
                 }
 
                 .mai_ro_sal1_imro1_nm1 {
@@ -212,7 +190,6 @@
                     font-size: 15px;
                     color: black;
                     font-family: "Ruda", sans-serif;
-                    border: 7px solid darkgreen;
                 }
 
                 .mai_ro_sal1_imro1_desc1 {
@@ -221,7 +198,6 @@
                     font-size: 15px;
                     color: black;
                     font-family: "Ruda", sans-serif;
-                    border: 7px solid darkgreen;  
                 }
 
                 .mai_ro_sal1_imro1_desc2 {
@@ -234,11 +210,9 @@
                 .mai_ro_sal1_imro1_ico1 { 
                     width: 190px;
                     height: 190px;
-                    border: 7px solid darkgreen; 
                     @include poin_scre3 {
                         width: 133px;
                         height: 133px;
-                        border: 7px solid darkgreen; 
                     } 
                 }
             }
@@ -247,14 +221,12 @@
         .mai_ro_blo1 {
             display: flex;
             flex-direction: column;
-            border: 7px solid darkgreen;
             .mai_ro_blo1_nm1 {
                 align-self: center;
                 font-style: normal;
                 font-size: 17px;
                 color: black;
                 font-family: "Source Serif 4", sans-serif;
-                border: 7px solid darkgreen;
             }
         }
 
@@ -264,7 +236,6 @@
             flex-direction: row;
             max-width: 1910px;
             flex-wrap: wrap;
-            border: 7px solid darkgreen;
             @include poin_scre3 {
                 display: flex;
                 justify-content: center;
@@ -272,7 +243,6 @@
                 max-width: 1910px;
                 flex-wrap: wrap;
                 row-gap: 27px;
-                border: 7px solid darkgreen;
             }
             @include poin_scre4 {
                 display: flex;
@@ -281,7 +251,6 @@
                 max-width: 1910px;
                 row-gap: 33px;
                 flex-wrap: wrap;
-                border: 7px solid darkgreen;
             }
             .mai_ro_blo1_produ1_ro {
                 display: flex;
@@ -289,7 +258,6 @@
                 width: 337px;
                 cursor: pointer;
                 row-gap: 11px;
-                border: 7px solid darkgreen;
                 transition: 0.5s;
                 &:hover {
                     cursor: pointer;
@@ -450,14 +418,12 @@
             flex-direction: row;
             max-width: 1910px;
             flex-wrap: wrap;
-            border: 7px solid darkgreen;
             @include poin_scre3 {
                 display: flex;
                 justify-content: center;
                 flex-direction: row;
                 max-width: 1910px;
                 flex-wrap: wrap;
-                border: 7px solid darkgreen;
             }
             @include poin_scre4 {
                 display: flex;
@@ -465,7 +431,6 @@
                 flex-direction: row;
                 max-width: 1910px;
                 flex-wrap: wrap;
-                border: 7px solid darkgreen;
             }
             .mai_ro_blo1_produ2_ro {
                 display: flex;
@@ -473,7 +438,6 @@
                 width: 337px;
                 row-gap: 11px;
                 cursor: pointer;
-                border: 7px solid darkgreen;
                 transition: 0.5s;
                 &:hover {
                     cursor: pointer;
@@ -634,14 +598,12 @@
             flex-direction: row;
             max-width: 1910px;
             flex-wrap: wrap;
-            border: 7px solid darkgreen;
             @include poin_scre3 {
                 display: flex;
                 justify-content: center;
                 flex-direction: row;
                 max-width: 1910px;
                 flex-wrap: wrap;
-                border: 7px solid darkgreen;
             }
             @include poin_scre4 {
                 display: flex;
@@ -649,7 +611,6 @@
                 flex-direction: row;
                 max-width: 1910px;
                 flex-wrap: wrap;
-                border: 7px solid darkgreen;
             }
             .mai_ro_blo1_produ3_ro {
                 display: flex;
@@ -657,7 +618,6 @@
                 cursor: pointer;
                 width: 337px;
                 row-gap: 11px;
-                border: 7px solid darkgreen;
                 transition: 0.5s;
                 &:hover {
                     cursor: pointer;
@@ -813,26 +773,23 @@
         }
 
         .mai_ro_blo1_produ4 {
-            border: 7px solid darkgreen;
             .mai_ro_blo1_produ4_ro {
                 display: flex;
                 flex-direction: column;
                 margin-top: 13px;
-                border: 7px solid darkgreen;
+                background-color: #F5DFD6;
                 .mai_ro_blo1_produ4_ro_tx1 {
                     align-self: flex-start;
                     font-style: normal;
                     color: black;
                     font-size: 17px;
                     font-family: "Source Serif Pro", sans-serif;
-                    border: 7px solid darkblue;
                     @include poin_scre3 {
                         align-self: center;
                         font-style: normal;
                         color: black;
                         font-size: 17px;
                         font-family: "Source Serif 4", sans-serif;
-                        border: 7px solid darkblue;
                     }
 
                     @include poin_scre4 {
@@ -841,7 +798,6 @@
                         color: black;
                         font-size: 17px;
                         font-family: "Source Serif 4", sans-serif;
-                        border: 7px solid darkblue;
                     }
                 }
 
@@ -851,14 +807,12 @@
                     color: #474747;
                     font-family: "Source Sans 3", sans-serif;
                     font-size: 15px;
-                    border: 7px solid darkblue;
                     @include poin_scre3 {
                         align-self: center;
                         font-style: normal;
                         color: #474747;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 15px;
-                        border: 7px solid darkblue;
                     }
 
                     @include poin_scre4 {
@@ -867,7 +821,6 @@
                         color: #474747;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 15px;
-                        border: 7px solid darkblue;
                     }
                 }
 
