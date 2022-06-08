@@ -15,20 +15,16 @@
         .blo_ro {
             display: flex;
             flex-direction: column;
-            border: 7px solid darkblue;
             .heade {
-                border: 7px solid darkgreen;
             }
 
             .mai {
                 flex-grow: 1;
                 flex-wrap: wrap;
                 flex-basis: 3130px;
-                border: 7px solid darkgreen;  
             }
 
             .foote {
-                border: 7px solid darkgreen;  
             }
         }
     }
